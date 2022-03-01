@@ -120,7 +120,7 @@
     "cross-env": "cross-env",
     "generate-web3Api": "node scripts/genWeb3API && node scripts/generateWeb3ApiTypes",
     "generate-solanaApi": "node scripts/genSolanaAPI && node scripts/generateSolanaApiTypes",
-    "prepare": "husky install",
+    "prepare": "npm run build",
     "pre-commit": "lint-staged"
   },
   "lint-staged": {
